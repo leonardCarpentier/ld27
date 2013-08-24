@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<language value="EN">
+		<monthes>
+			<month>JAN</month>
+			<month>FEB</month>
+			<month>MAR</month>
+			<month>APR</month>
+			<month>MAY</month>
+			<month>JUN</month>
+			<month>JUL</month>
+			<month>AUG</month>
+			<month>SEP</month>
+			<month>OCT</month>
+			<month>NOV</month>
+			<month>DEC</month>
+		</monthes>
+		
+		<campaignEvents>
+			<campaignEvent name="Random TV Show" minVote="-3" maxVote="0" minPoll="0" maxPoll="3" picId="1" delay="1" delayMargin="1" />
+			<campaignEvent name="Big time Rally" minVote="3" maxVote="6" minPoll="-3" maxPoll="-1" picId="2" delay="2" delayMargin="2" />
+			<campaignEvent name="Orphanage visit" minVote="0" maxVote="1" minPoll="0" maxPoll="1" picId="3" delay="1" delayMargin="0" />
+			<campaignEvent name="Internet interview" minVote="0" maxVote="1" minPoll="-5" maxPoll="0" picId="3" delay="1" delayMargin="0" />
+			<campaignEvent name="Leak Holyday picture" minVote="-5" maxVote="5" minPoll="-1" maxPoll="0" picId="3" delay="1" delayMargin="0" />
+			<campaignEvent name="Party in nazi uniform" minVote="-5" maxVote="-3" minPoll="-5" maxPoll="-3" picId="3" delay="1" delayMargin="0" />
+			<campaignEvent name="Win nobel prize" minVote="-3" maxVote="-1" minPoll="2" maxPoll="5" picId="3" delay="2" delayMargin="3" />
+			<campaignEvent name="Oppose gay mariage" minVote="-5" maxVote="-3" minPoll="1" maxPoll="3" picId="3" delay="2" delayMargin="1" />
+			<campaignEvent name="Promote weed" minVote="2" maxVote="4" minPoll="-1" maxPoll="-3" picId="3" delay="2" delayMargin="1" />
+		</campaignEvents>
+	</language>
+</data>
