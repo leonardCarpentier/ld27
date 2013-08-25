@@ -2,30 +2,98 @@
 <data>
 	<language value="EN">
 		<monthes>
-			<month>JAN</month>
-			<month>FEB</month>
-			<month>MAR</month>
-			<month>APR</month>
-			<month>MAY</month>
-			<month>JUN</month>
-			<month>JUL</month>
-			<month>AUG</month>
-			<month>SEP</month>
-			<month>OCT</month>
-			<month>NOV</month>
-			<month>DEC</month>
+			<month txt="JAN"/>
+			<month txt="FEB"/>
+			<month txt="MAR"/>
+			<month txt="APR"/>
+			<month txt="MAY"/>
+			<month txt="JUN"/>
+			<month txt="JUL"/>
+			<month txt="AUG"/>
+			<month txt="SEP"/>
+			<month txt="OCT"/>
+			<month txt="NOV"/>
+			<month txt="DEC"/>
 		</monthes>
 		
 		<campaignEvents>
 			<campaignEvent name="Random TV Show" minVote="-3" maxVote="0" minPoll="0" maxPoll="3" picId="1" delay="1" delayMargin="1" />
 			<campaignEvent name="Big time Rally" minVote="3" maxVote="6" minPoll="-3" maxPoll="-1" picId="2" delay="2" delayMargin="2" />
 			<campaignEvent name="Orphanage visit" minVote="0" maxVote="1" minPoll="0" maxPoll="1" picId="3" delay="1" delayMargin="0" />
-			<campaignEvent name="Internet interview" minVote="0" maxVote="1" minPoll="-5" maxPoll="0" picId="3" delay="1" delayMargin="0" />
-			<campaignEvent name="Leak Holyday picture" minVote="-5" maxVote="5" minPoll="-1" maxPoll="0" picId="3" delay="1" delayMargin="0" />
-			<campaignEvent name="Party in nazi uniform" minVote="-5" maxVote="-3" minPoll="-5" maxPoll="-3" picId="3" delay="1" delayMargin="0" />
-			<campaignEvent name="Win nobel prize" minVote="-3" maxVote="-1" minPoll="2" maxPoll="5" picId="3" delay="2" delayMargin="3" />
-			<campaignEvent name="Oppose gay mariage" minVote="-5" maxVote="-3" minPoll="1" maxPoll="3" picId="3" delay="2" delayMargin="1" />
-			<campaignEvent name="Promote weed" minVote="2" maxVote="4" minPoll="-1" maxPoll="-3" picId="3" delay="2" delayMargin="1" />
+			<campaignEvent name="Internet interview" minVote="0" maxVote="1" minPoll="-5" maxPoll="0" picId="4" delay="1" delayMargin="0" />
+			<campaignEvent name="Leak Holiday picture" minVote="-5" maxVote="5" minPoll="-1" maxPoll="0" picId="5" delay="1" delayMargin="0" />
+			<campaignEvent name="Party in nazi uniform" minVote="-5" maxVote="-3" minPoll="-5" maxPoll="-3" picId="6" delay="1" delayMargin="0" />
+			<campaignEvent name="Win nobel prize" minVote="-3" maxVote="-1" minPoll="2" maxPoll="5" picId="7" delay="2" delayMargin="3" />
+			<campaignEvent name="Hunt a tiger" minVote="-5" maxVote="-3" minPoll="1" maxPoll="3" picId="8" delay="2" delayMargin="1" />
+			<campaignEvent name="Keep a low profile" minVote="2" maxVote="4" minPoll="-1" maxPoll="-3" picId="9" delay="2" delayMargin="1" />
 		</campaignEvents>
-	</language>
-</data>
+		
+			<questionmax    txt="mmmmmmmmmmmmThis is a consequence of massive immigration, and we need to stop it. eeee•"/>
+		
+		<debate>
+			<debateQuestion txt="Do you think the Death Penalty should be abolished by federal authorities?">
+					<answer txt="How are LEO supposed to do their jobs if criminals have nothing to be afraid of?" bonusType="vote" bonusValue="3" />
+					<answer txt="Jails are already overpopulated, and we all know where those criminals are coming from..." bonusType="vote" bonusValue="3"/>
+					<answer txt="Death penalty is not Justice. We need other ways to deal with criminals." bonusType="poll" bonusValue="4"/>
+					<answer txt="If God didn't want us to kill criminals, he would've sent us a sign by now." bonusType="vote" bonusValue="1"/>
+					<answer txt="This is a complicated issue and it needs to be discussed directly with the concerned authorities." bonusType="poll" bonusValue="1"/>
+				</debateQuestion>
+				
+				<debateQuestion txt="You opponent Miss Birchlady expressed her wish to abolish abortion altogether. What's your take on that issue? ">
+					<answer txt="Abortion allows people to think they can have sex outside of marriage." bonusType="vote" bonusValue="2" />
+					<answer txt="The issue was never abortion itself. We need to focus on educating both men and women." bonusType="poll" bonusValue="3"/>
+					<answer txt="All I'm saying is, if we do nothing we could be outnumbered 2-to-1 by immigrants before 2015!" bonusType="vote" bonusValue="1"/>
+					<answer txt="I was never comfortable with the murder of innocent babies, if that's what you're asking." bonusType="vote" bonusValue="3"/>
+					<answer txt="There is a middle ground to be found here. We need to look at the big picture." bonusType="poll" bonusValue="1"/>
+				</debateQuestion>
+				
+				<debateQuestion txt="How would you handle the Don't Ask Don't Tell military policy if you were to be elected?">
+					<answer txt="Those people fight for our freedom every day, they shouldn't have to hide who they are." bonusType="poll" bonusValue="3" />
+					<answer txt="Studies show homosexuality and immigration are linked, and you know where I stand on that!" bonusType="vote" bonusValue="5"/>
+					<answer txt="I think it's a non-issue. I would let military people handle it." bonusType="poll" bonusValue="1"/>
+					<answer txt="When I served... Yes, I served. Let's talk about that instead." bonusType="vote" bonusValue="1"/>
+					<answer txt="They have a constitutional right to own a gun, and that's something I'll fight to protect!" bonusType="vote" bonusValue="3"/>
+				</debateQuestion>
+				
+				<debateQuestion txt="Would you change current gun laws and how?">
+					<answer txt="Good citizens deserve the means to defend their homes." bonusType="vote" bonusValue="3" />
+					<answer txt="There are way too many immigrants in this country. Sorry, what was the question again?" bonusType="vote" bonusValue="1"/>
+					<answer txt="What about banning cars and alcohol while you're at it?" bonusType="vote" bonusValue="2"/>
+					<answer txt="We need to educate people. You shouldn't use a gun if you don't respect life in the first place." bonusType="poll" bonusValue="3"/>
+					<answer txt="We need to make sure no guns end up in the wrong hands without citizens being disarmed." bonusType="poll" bonusValue="1"/>
+				</debateQuestion>
+				
+				<debateQuestion txt="Should we allow medical marijuana at a larger scale?">
+					<answer txt="Drugs are dangerous and I won't be part of that conspiracy." bonusType="vote" bonusValue="3" />
+					<answer txt="And why not allow for medical LSD while you're at it?" bonusType="vote" bonusValue="1"/>
+					<answer txt="If you are asking if I'm ready to participate in the funding of organized crime, the answer is no." bonusType="vote" bonusValue="2"/>
+					<answer txt="Cannabis is scientifically proven to be safer than alcohol, we need to consider that." bonusType="poll" bonusValue="3"/>
+					<answer txt="If medical professionals vouch for it, I think we should consider it, yes." bonusType="poll" bonusValue="1"/>
+				</debateQuestion>
+				
+				<debateQuestion txt="Do you plan on closing the military detention camp know as Guantanawood?">
+					<answer txt="Those inmates are terrorists. I have other priorities." bonusType="vote" bonusValue="4" />
+					<answer txt="Guantanawood is the necessary response to a new kind of threat, and we need it." bonusType="vote" bonusValue="1"/>
+					<answer txt="Would you rather have those terrorist in your backyard? We can't close Guantanawood." bonusType="vote" bonusValue="2"/>
+					<answer txt="Guantanawood is a stain on this country's conscience and we need to shut it down as soon as possible." bonusType="poll" bonusValue="3"/>
+					<answer txt="We need to know where we will move those prisoners before we make any decision." bonusType="poll" bonusValue="1"/>
+				</debateQuestion>
+				
+				<debateQuestion txt="Atheism is currently rising in our country. Do you think it's related to our education system?">
+					<answer txt="This is our country's crisis of faith and we need to protect our children from it." bonusType="vote" bonusValue="4" />
+					<answer txt="The education system is biased and we need to consider banning atheistic propaganda from the classroom." bonusType="vote" bonusValue="1"/>
+					<answer txt="We need more religious teaching, starting younger." bonusType="vote" bonusValue="2"/>
+					<answer txt="More educated people tend to turn away from religion. That's a good sign for our country." bonusType="poll" bonusValue="3"/>
+					<answer txt="This is a free country and people should be able to make their own choices." bonusType="poll" bonusValue="1"/>
+				</debateQuestion>
+				
+				<debateQuestion txt="The recent discovery of the clandestine Internet Surveillance program LOG raised concern about online privacy. Can you comment on that?">
+					<answer txt="Internet shouldn't be the lawless, sordid place it is. Do you read youtube comments?" bonusType="vote" bonusValue="4" />
+					<answer txt="Internet is a weird place. I never go there." bonusType="vote" bonusValue="1"/>
+					<answer txt="If you have nothing to hide..." bonusType="vote" bonusValue="2"/>
+					<answer txt="We need to open an dialog here. LOG wasn't the right answer but the issue is real" bonusType="poll" bonusValue="3"/>
+					<answer txt="You shouldn't pass laws on the Internet if you don't understand it." bonusType="poll" bonusValue="1"/>
+				</debateQuestion>
+			</debate>
+		</language>
+	</data>

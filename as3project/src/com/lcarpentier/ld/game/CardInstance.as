@@ -1,5 +1,6 @@
 package com.lcarpentier.ld.game 
 {
+	import com.lcarpentier.ld.manager.Global;
 	import com.lcarpentier.ld.vo.CampaignEvent;
 	import flash.display.Sprite;
 	
@@ -38,8 +39,8 @@ package com.lcarpentier.ld.game
 			vo = ce;
 			
 			//Convert it to instance data
-			_vote = ce.minVote + Math.floor(Math.random() * (ce.maxVote-ce.minVote));
-			_poll = ce.minPoll + Math.floor(Math.random() * (ce.maxPoll-ce.minPoll));
+			_vote = ce.minVote + Math.floor(Math.random() * (ce.maxVote-ce.minVote)) + Math.max(Math.floor(Math.random()*(3-Global.round)), 0);
+			_poll = ce.minPoll + Math.floor(Math.random() * (ce.maxPoll-ce.minPoll)) + Math.floor(Math.random()*(4-Global.round));
 			_delay = ce.minDelay + Math.floor(Math.random() * (ce.maxDelay-ce.minDelay));
 			
 			
@@ -57,6 +58,9 @@ package com.lcarpentier.ld.game
 			display.illustration.gotoAndStop(ce.pictureId);
 			
 			display.txtDaysAmount.text = _delay + "";
+			
+			if (_delay == 1) { display.txtDayDays.text = "Day" };
+			
 			display.txtName.text = vo.name;
 			display.txtPoll.text = _poll + "";
 			display.txtVotes.text = _vote + "";

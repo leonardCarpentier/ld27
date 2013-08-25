@@ -1,6 +1,7 @@
 package com.lcarpentier.ld.manager 
 {
 	import com.lcarpentier.ld.vo.CampaignEvent;
+	import com.lcarpentier.ld.vo.DebateEvent;
 	import flash.events.Event;
 	import flash.net.URLLoader;
 	import flash.net.URLRequest;
@@ -57,6 +58,24 @@ package com.lcarpentier.ld.manager
 				
 				
 				Global.campaignEvents.push(campaignEvent);
+			}
+			
+			for each (var m:XML in xml.monthes.month)
+			{
+				Global.months.push(m.@txt);
+			}
+			
+			for each (var d:XML in xml.debate.debateQuestion)
+			{
+				var vo:DebateEvent = new DebateEvent();
+				vo.question = d.@txt;
+				for each (var a:XML in d.answer)
+				{
+					vo.answers.push(a.@txt);
+					vo.typeIsVote.push( a.@bonusType == "vote" ? true : false);
+					vo.rewards.push(int(a.@bonusValue));
+				}
+				Global.debateEvents.push(vo);
 			}
 			
 			//end of loading
